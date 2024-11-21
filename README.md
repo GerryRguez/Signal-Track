@@ -15,7 +15,7 @@
 
 **Description:**
 
-Digital wind compass 
+Digital wind compass.
 
 **Software:**
 
@@ -67,8 +67,13 @@ _Design and implementation of the device._ - **Hardware** 🛠️
 
 
 
-*Academic aspects. Non-essential
+*Academic aspects. Non-essential.
 
 **Thank you very much for reading us.** 
 
 _"In case I don't see you… good afternoon, good evening, and good night"_ - **The Truman Show (1998)** 🧸
+
+
+
+
+                  -- UABCS 2024 - DASC - LA PAZ, BAJA CALIFORNIA SUR.-- 
