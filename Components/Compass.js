@@ -1,11 +1,11 @@
 import React, { useState } from 'react';
 import { View, Text, TextInput, StyleSheet } from 'react-native';
 
-const Compass = () => {
-  const [directionCode, setDirectionCode] = useState('');
-  const [rotation, setRotation] = useState(0);
+const Compass = ({code}) => {
+const [directionCode, setDirectionCode] = useState('');
+const [rotation, setRotation] = useState(90);
 
-  const directionMap = {
+const directionMap = {
     '000': 0,    
     '001': 45,   
     '010': 90,   
@@ -14,13 +14,13 @@ const Compass = () => {
     '101': 225,  
     '110': 270,  
     '111': 315,  
-  };
+};
 
-  const handleDirectionChange = (code) => {
+const handleDirectionChange = (code) => {
     setDirectionCode(code);
-
+    
     if (directionMap.hasOwnProperty(code)) {
-      setRotation(directionMap[code]);
+      setRotation();
     } else {
       setRotation(0);
     }
@@ -37,7 +37,7 @@ const Compass = () => {
       <Text style={[styles.directionText, styles.southeastText]}>SE</Text>
       <Text style={[styles.directionText, styles.southwestText]}>SW</Text>
 
-      <View style={[styles.needleContainer, { transform: [{ rotate: ${rotation}deg }] }]}>
+      <View style={[styles.needleContainer, { transform: [{ rotate: `${directionMap[code]}deg` }] }]}>
         <View style={styles.needle} />
       </View>
 

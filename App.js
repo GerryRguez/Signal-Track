@@ -3,7 +3,7 @@ import { StyleSheet, View, Text } from 'react-native';
 import axios from 'axios';
 import Header from './Components/Header';
 import Footer from './Components/Footer';
-import Card from './Components/Card';
+
 import Compass from './Components/Compass';
 
 export default App = () => {
@@ -26,15 +26,15 @@ export default App = () => {
   };
 
   useEffect(() => {
-    fetchData(); 
+    // fetchData(); 
   }, []);
 
   return (
     <View style={styles.container}>
       <Header text="Dirección del viento" style={styles.header} />
-      <Compass />
+      <Compass code = {"110"} />
       <Text style={styles.dataText}>
-        {data ? Datos del ESP8266: ${data} : "Conectando..."}
+        {/* {data ? Datos del ESP8266: ${data} : "Conectando..."} */}
       </Text>
       <Footer text="Creadores y asesores:" style={styles.footer} />
     </View>
