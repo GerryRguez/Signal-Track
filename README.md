@@ -71,4 +71,4 @@ _Design and implementation of the device._ - **Hardware** 🛠️
 
 **Thank you very much for reading us.** 
 
-_"In case I don't see you… good afternoon, good evening, and good night"_ - **Ther Truman Show (1998)** 🧸
+_"In case I don't see you… good afternoon, good evening, and good night"_ - **The Truman Show (1998)** 🧸
