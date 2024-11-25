@@ -1,10 +1,13 @@
-import React from "react";
-import { StyleSheet, View, Text} from "react-native";
 
-export default Footer = ({ text, style }) => {
+import React from "react";
+import { StyleSheet, View, Text, TouchableOpacity } from "react-native";
+
+export default Footer = ({ text, style, onPress }) => {
     return (
         <View style={[styles.container, style]}>
-            <Text style={styles.txt}>{text}</Text>
+            <TouchableOpacity onPress={onPress}>
+                <Text style={styles.txt}>{text}</Text>
+            </TouchableOpacity>
         </View>
     );
 }
@@ -13,10 +16,10 @@ const styles = StyleSheet.create({
     container: {
         alignItems: 'center',
         justifyContent: 'center'
-      },
-      txt: {
+    },
+    txt: {
         fontSize: 20,
         fontWeight: 'bold',
         color: '#fff',
-      },
+    },
 });
