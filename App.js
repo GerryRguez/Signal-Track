@@ -49,10 +49,10 @@ const HomeScreen = ({ navigation }) => {
  
       {connected && isValidData && <Compass directionCode={data} />}
       <Text style={styles.dataText}>
-         {/*{connected
-         ? Data received: ${isValidData ? data : 'Awaiting data...'}
-          : 'Connecting to the WebSocket server...'} */}
-      </Text>
+        {connected
+          ? "Data received: ${isValidData ? data : 'Awaiting data...'}"
+          : 'Connecting to the WebSocket server...'}
+      </Text>
      
       <Footer
         text="Members and Advisors"
