@@ -55,6 +55,11 @@ _Design and implementation of the device._ - **Hardware** 🛠️
 - Rivera Avilés Juan Gabriel
 - Gaucin Murillo Angel
 
+_Visual design of the application._ **Appearance** 🎨
+
+- Agundez Hernandez Angel Israel 
+- Meneses Cadena Cesar
+
 **Advisors:** 📢
 
 **Software development and assembly:**
