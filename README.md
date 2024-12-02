@@ -72,9 +72,9 @@ _Visual design of the application._ **Appearance** 🎨
 
 Figma link:
 
+https://www.figma.com/design/4weMzE3N3XRLaUEvoZRYuU/Direcci%C3%B3n-del-viento?node-id=0-1&t=Z8V7gHhmbW33HlLA-1 
 https://www.figma.com/design/h2Qt7c1Q8ozZV8JaDceTfR/Untitled-(Copy)?node-id=0-1&t=16Fbxybts3se1nzF-1
 
-:3 ._.
 
 *Academic aspects. Non-essential.
 
