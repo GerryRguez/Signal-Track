@@ -74,7 +74,7 @@ Figma link:
 
 https://www.figma.com/design/h2Qt7c1Q8ozZV8JaDceTfR/Untitled-(Copy)?node-id=0-1&t=16Fbxybts3se1nzF-1
 
-:3 
+:3 ._.
 
 *Academic aspects. Non-essential.
 
