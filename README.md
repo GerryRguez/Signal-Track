@@ -70,7 +70,9 @@ _Visual design of the application._ **Appearance** 🎨
 
 - Ojeda Castro Angel De Jesus - **Mobile Applications**
 
+Figma link:
 
+https://www.figma.com/design/h2Qt7c1Q8ozZV8JaDceTfR/Untitled-(Copy)?node-id=0-1&t=16Fbxybts3se1nzF-1
 
 *Academic aspects. Non-essential.
 
